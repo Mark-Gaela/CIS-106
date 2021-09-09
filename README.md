@@ -1,2 +1,2 @@
 # CIS-106
-Linux Fundamentals
+Linux Fundamentals Fall 2021
