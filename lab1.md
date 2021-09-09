@@ -16,7 +16,7 @@ During class, we explored the concept of Linux distribution. During this lab, yo
 Go to [Distrowatch](https://distrowatch.com/). Explore the website to get familiar with the home page. On the top left corner, you have a form that allows you to submit queries to the website. In the **“Type Distribution Name”** box type **“Ubuntu”.**  This will return details about Ubuntu. Explore the Ubuntu Distrowatch page and answer the following questions:
 
 1. What is the OS Type: 
-   * **The OS Type is Linux**
+   * **The OS Type is Linux.**
 
 2. Which major distro is it based on?  
    * **The major distro is Debian.**
@@ -33,10 +33,10 @@ Go to [Distrowatch](https://distrowatch.com/). Explore the website to get famili
 ### Question 2
 On the top left corner, click on “Random Distribution” and answer the following questions from the distro you got.
 1. What is the name of the distribution and the OS Type: 
-   * **The OS Type is Linux**
+   * **The name of the distribution is BunsenLabs Linux and the OS Type is Linux.**
 
 2. Which major distro is it based on?  
-   * **The major distro is Debian (Stable)**
+   * **The major distro is Debian (Stable).**
    
 3. Which processor architecture does it support?  
    * **The processor architecture it supports is i686 and x86_64.**
@@ -58,19 +58,19 @@ Click on **“Search”** and after the page loads, fill in the following inform
 From the query results, choose any distribution and answer the following question about the distro you chose.
 
 1. What is the name of the distribution? 
-   * **The name of the distribution is SteamOS**
+   * **The name of the distribution is SteamOS.**
   
 2. What is the country of Origin?
    * **The country of origin is USA.**
   
 3. What major distribution is it based on?
-   * **The major distribution it is based on is Debian (Stable)**
+   * **The major distribution it is based on is Debian (Stable).**
 
 4. What is the distribution category?
    * **The distribution is gaming.**
   
 5. Which processor architecture, aside from the one in the original query, does the OS support?
-   * **The processor architecture the OS supports is x86_64.**
+   * **The processor architecture the OS supports only x86_64.**
 
 ### Question 4
 Now that you know how to use Distrowatch. Find a Linux distribution for the following scenarios. For each distribution provide the website, name, and supported architecture.
@@ -92,7 +92,7 @@ Now that you know how to use Distrowatch. Find a Linux distribution for the foll
 
 ### Question 5 (Extra credit 2 pts - Optional)
 On the Distrowatch homepage in the menu located in the middle of the page, you will find an option called **“Submit Distribution”.** This option lists all the Linux distros that are pending evaluation, on development or that are experiencing some sort of legal constraint.  Select one of these distributions and in a paragraph, share your thoughts. (keep it simple 5 to 8 sentences).
-**CutiefishOS is a Linux based OS Type built off of Ubuntu that is waiting for evaluation. The main goal of this operating system is to have a Linux based operating system that has an elegant and simplistic design. This linux distribution looks to heavily adopt the design language of Apple’s macOS. In my opinion, the idea of simplistic linux distribution is good for introducing linux to a new user but I believe it is counterintuitive to Linux’s overall philosophy. Linux’s practicality is hard to simplify even if they make the front-end of linux visually pleasing.**
+**CutiefishOS is a Linux based OS Type built off of Ubuntu that is waiting for evaluation. The main goal of this operating system is to have a Linux based operating system that has an elegant and simplistic design. CutiefishOS also develops their own OS applications to provide a more cohesive experience. This linux distribution looks to heavily adopt the design language and software ecosystem of Apple’s macOS. In my opinion, the idea of a simplistic linux distribution is good for casual users instead of power users.**
 
 
 ## Working with DistroTest.net
