@@ -1,11 +1,11 @@
 # Question 2 Screenshot
-![settings1](settings1.png)
-![settings2](settings2.png)
-![settings3](settings3.png)
-![settings4](settings4.png)
-![settings5](settings5.png)
-![settings6](settings6.png)
-![settings7](settings7.png)
+![settings1](Settings1.png)
+![settings2](Settings2.png)
+![settings3](Settings3.png)
+![settings4](Settings4.png)
+![settings5](Settings5.png)
+![settings6](Settings6.png)
+![settings7](Settings7.png)
 # Question 3 Screenshot
 ![rebootUbuntu](rebootWindow.png)
 # Question 4 Screenshot
