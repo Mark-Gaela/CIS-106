@@ -11,6 +11,6 @@
 # Question 4 Screenshot
 ![newDesktop](newDesktop.png)
 # Question 5 Screenshot
-![runningVS](runningVS.png)
+![runningVS](RunningVS.png)
 
 Assignment description [here](https://raw.githubusercontent.com/ra559/cis106/main/labs/lab2.md)
