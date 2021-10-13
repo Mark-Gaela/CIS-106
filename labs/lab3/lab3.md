@@ -20,6 +20,7 @@ Assignment description [here](https://raw.githubusercontent.com/ra559/cis106/mai
     brave-keyring
     The following NEW packages will be installed:
     brave-browser brave-keyring
+    
     3.3. How much disk space will the package utilize after installation?
     291 MB of disk space will be used by the package.
 
