@@ -1,4 +1,4 @@
-# Lab 3 | Managing files and directories | Answers
+# Lab 4.1 | Managing files and directories | Answers
 Assignment description [here](https://raw.githubusercontent.com/ra559/cis106/main/labs/lab4.1.md)
 
 ## Question 1
