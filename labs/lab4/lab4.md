@@ -68,4 +68,7 @@ Assignment description [here](https://github.com/ra559/cis106/blob/main/labs/lab
 ![Question3](/imgs/lab4-3imgs/Question3.png)
 
 ## Question 4
-![Question4P1](/imgs/lab4-3imgs/Question4.png)
+![Question4](/imgs/lab4-3imgs/Question4.png)
+
+## Question 5
+![Question5](/imgs/lab4-3imgs/Question5.png)
