@@ -4,11 +4,11 @@
 ### CIS-106-ME1: Linux Fundamentals
 ### 16 December 2021
 
-
-# Building a File Server: SAMBA File Server
+# <a name='Build'></a>Building a File Server: SAMBA File Server
 
 ## Table of Contents
 <!-- vscode-markdown-toc -->
+* 0. [Building a File Server: SAMBA File Server](#Build)
 * 1. [Installing SAMBA](#Installing)
 * 2. [Checking the status of SAMBA](#Checking)
 * 3. [Configuring the SAMBA config file](#Configurating)
@@ -17,7 +17,7 @@
 * 6. [Starting/Restarting SAMBA](#Starting/)
 * 7. [Work Cited](#Work)
 <!-- vscode-markdown-toc-config
-	numbering=true
+	numbering=false
 	autoSave=true
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
