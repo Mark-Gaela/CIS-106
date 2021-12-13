@@ -223,7 +223,7 @@ SAMBA has made a new directory in the etc directory. Your SAMBA server should al
 
 <div style="page-break-after: always;"></div>
 
-<center><a name='Work'></a>Work Cited</center>
+<center><h2><a name='Work'></a>Work Cited</h2></center>
 
 Setting up Simple Samba File Shares - Youtube. https://www.youtube.com/watch?v=7Q0mnAT1MRg. 
 
