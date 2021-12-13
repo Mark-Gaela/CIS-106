@@ -148,7 +148,7 @@ SAMBA has made a new directory in the etc directory. Your SAMBA server should al
    ---5 other has r-x permissions. *Execute permission is to allow the user to go inside the directory*
    **force directory mode** forces the permissions of created directory
    **public** makes the directory public
-   **writable** allows changes
+   **writable** allows changes to be made
 
 6. Optional: Make another directory but for files that can be download files but not be able to change the files. 
    
@@ -175,6 +175,10 @@ SAMBA has made a new directory in the etc directory. Your SAMBA server should al
 
     *You can check if the group was recently made with*
     >tail -1 /etc/group
+
+    **tail** will list the last 5 lines of a file
+    **-1** argument for tail that will list the last line of the file
+
 
 2. Create the user by entering
    >sudo useradd --system --no-create-home --group smbgroup -s /bin/false smbuser
@@ -207,6 +211,10 @@ SAMBA has made a new directory in the etc directory. Your SAMBA server should al
 ##  6. <a name='Starting'></a>Starting/Restarting SAMBA
 1. Now you can start/restart SAMBA with this command
    >sudo systemctl start smbd
+
+   >sudo systemctl restart smbd
+
+   **restart** will restart smbd.
 
 ![Restarting SAMBA](../imgs/finalProject-imgs/Part7.png)
 
