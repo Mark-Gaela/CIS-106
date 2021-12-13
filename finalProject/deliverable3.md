@@ -7,15 +7,13 @@
 
 # Building a File Server: SAMBA File Server
 
-<div style="page-break-after: always;"></div>
-
 ## Table of Contents
 <!-- vscode-markdown-toc -->
 * 1. [Installing SAMBA](#Installing)
 * 2. [Checking the status of SAMBA](#Checking)
-* 3. [Configuring the SAMBA config file](#Configuration)
+* 3. [Configuring the SAMBA config file](#Configurating)
 * 4. [Create the SAMBA user and group](#Create)
-* 5. [Set up the folder permissions](#5.Set)
+* 5. [Set up the folder permissions](#Set)
 * 6. [Starting/Restarting SAMBA](#Starting/)
 * 7. [Work Cited](#Work)
 <!-- vscode-markdown-toc-config
@@ -27,7 +25,7 @@
 
 <div style="page-break-after: always;"></div>
 
-## 1.Installing SAMBA
+##  1. <a name='Installing'></a>Installing SAMBA
 
 1. Open your Linux terminal.
 2. Enter
@@ -54,7 +52,7 @@
 
 <div style="page-break-after: always;"></div>
 
-## 2.Checking the status of SAMBA
+##  2. <a name='Checking'></a>Checking the status of SAMBA
 
 1. Enter
    >sudo systemctl status smbd
@@ -78,7 +76,7 @@
 
 <div style="page-break-after: always;"></div>
 
-## 3.Configuring the SAMBA config file
+##  3. <a name='Configuring'></a>Configuring the SAMBA config file
 
 SAMBA has made a new directory in the etc directory. Your SAMBA server should also be inactive or dead.
 ![Creates etc directory](../imgs/finalProject-imgs/Part3.png)
@@ -166,7 +164,8 @@ SAMBA has made a new directory in the etc directory. Your SAMBA server should al
 
 <div style="page-break-after: always;"></div>
 
-## 4.Create the SAMBA user and group
+##  4. <a name='Create'></a>Create the SAMBA user and group
+
 1. Create the group by entering
    >sudo groupadd --system smbgroup
   
@@ -189,7 +188,8 @@ SAMBA has made a new directory in the etc directory. Your SAMBA server should al
    *You can check if the user was recently made with*
     >tail -1 /etc/passwd
 
-## 5.Set up the folder permissions
+##  5. <a name='Set'></a>Set up the folder permissions
+
 1. Change the ownership of the directory with the command:
    >sudo chown -R smbuser:smbgroup /home/student/Documents/SAMBA
 
@@ -204,7 +204,7 @@ SAMBA has made a new directory in the etc directory. Your SAMBA server should al
 
 <div style="page-break-after: always;"></div>
 
-## 6.Starting/Restarting SAMBA
+##  6. <a name='Starting'></a>Starting/Restarting SAMBA
 1. Now you can start/restart SAMBA with this command
    >sudo systemctl start smbd
 
@@ -215,8 +215,10 @@ SAMBA has made a new directory in the etc directory. Your SAMBA server should al
 
 <div style="page-break-after: always;"></div>
 
-<center>Work Cited</center>
-   Setting up Simple Samba File Shares - Youtube. https://www.youtube.com/watch?v=7Q0mnAT1MRg. 
+<center><a name='Work'></a>Work Cited</center>
 
-   jay. “Setting up Simple Samba File Shares.” LearnLinuxTV, 25 Oct. 2021, https://www.learnlinux.tv/setting-up-simple-samba-file-shares/. 
+Setting up Simple Samba File Shares - Youtube. https://www.youtube.com/watch?v=7Q0mnAT1MRg. 
 
+jay. “Setting up Simple Samba File Shares.” LearnLinuxTV, 25 Oct. 2021, https://www.learnlinux.tv/setting-up-simple-samba-file-shares/. 
+
+Adrian Mejia. “How to Set up Samba in Ubuntu/Linux, and Access It in Mac OS and Windows.” Adrian Mejia Blog, Adrian Mejia, 13 July 2011, https://adrianmejia.com/how-to-set-up-samba-in-ubuntu-linux-and-access-it-in-mac-os-and-windows/. 
